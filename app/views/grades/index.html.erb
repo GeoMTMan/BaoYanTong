@@ -7,20 +7,22 @@
     <div class="col-sm-10">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <% if teacher_logged_in? %><h3 class="panel-title">成绩管理: <%=@course.name%></h3><% end %>
-          <% if student_logged_in? %><h3 class="panel-title">成绩列表</h3><% end %>
+          <% if teacher_logged_in? %><h3 class="panel-title">答复培训申请: <%=@course.name%></h3><% end %>
+          <% if student_logged_in? %><h3 class="panel-title">项目答复结果</h3><% end %>
         </div>
         <div class="panel-body" style="min-height: 450px">
           <table class="table table-striped table-hover">
             <thead>
 
             <tr>
-              <th>学号</th>
+              <th>学生联系方式</th>
               <th>名字</th>
-              <th>专业</th>
-              <th>培养单位</th>
-              <th>课程</th>
-              <th>目前分数</th>
+              <th>本科专业</th>
+              <th>本科院校</th>
+              <th>目标专业</th>
+              <th>目标院校</th>
+              <th>项目名称</th>
+              <th>答复结果</th>
 
             </tr>
             </thead>
@@ -32,12 +34,14 @@
                   <td><%= grade.user.name %></td>
                   <td><%= grade.user.major %></td>
                   <td><%= grade.user.department %></td>
+                  <td><%= grade.user.aim_major %></td>
+                  <td><%= grade.user.aim_department %></td>
                   <td><%= grade.course.name %></td>
                   <td><%= grade.grade %></td>
 
                   <% if teacher_logged_in? %>
                       <%= form_for grade, url: grade_url(id: grade.id, course_id: grade.course.id), method: :patch do |f| %>
-                          <td><%= f.text_field :grade %></td>
+                          <td><%= f.text_field :grade ,placeholder: "是否接受申请（1/0?）" %></td>
                           <td><%= f.submit "提交", class: "btn btn-success btn-xs" %></td>
                       <% end %>
                   <% end %>

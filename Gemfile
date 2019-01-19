@@ -1,4 +1,4 @@
-source 'https://gems.ruby-china.org'
+source 'https://mirrors.aliyun.com/rubygems'
 
 gem 'bootstrap-sass', '~> 3.3.7'
 # Use ActiveModel has_secure_password
@@ -14,8 +14,6 @@ gem 'roo'
 gem 'roo-xls'
 gem 'paper_trail'
 gem 'rubyzip', '~> 1.1.0'
-gem 'axlsx', '2.1.0.pre'
-gem 'axlsx_rails'
 gem 'rails-i18n'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

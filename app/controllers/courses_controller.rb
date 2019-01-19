@@ -38,13 +38,13 @@ class CoursesController < ApplicationController
   def open
     @course=Course.find_by_id(params[:id])
     @course.update_attributes(open: true)
-    redirect_to courses_path, flash: {:success => "已经成功开启该课程:#{ @course.name}"}
+    redirect_to courses_path, flash: {:success => "已经成功开启该项目:#{ @course.name}"}
   end
 
   def close
     @course=Course.find_by_id(params[:id])
     @course.update_attributes(open: false)
-    redirect_to courses_path, flash: {:success => "已经成功关闭该课程:#{ @course.name}"}
+    redirect_to courses_path, flash: {:success => "已经成功关闭该项目:#{ @course.name}"}
   end
 
   def destroy
@@ -73,7 +73,7 @@ class CoursesController < ApplicationController
   def select
     @course=Course.find_by_id(params[:id])
     current_user.courses<<@course
-    flash={:suceess => "成功选择课程: #{@course.name}"}
+    flash={:suceess => "成功选择项目: #{@course.name}"}
     redirect_to courses_path, flash: flash
   end
 
