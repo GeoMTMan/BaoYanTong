@@ -17,10 +17,9 @@
 **如果觉得好，给项目点颗星吧～**
 
 ### 截图
+![imagine]( BaoYanTong/photos/页面.png )
 
-<img src="/lib/screenshot1.png" width="700">  
-
-<img src="/lib/screenshot2.png" width="700">
+![imagine](
 
 <img src="/lib/screenshot3.png" width="700">   
 
