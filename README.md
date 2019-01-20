@@ -19,11 +19,11 @@
 ### 截图
 ![imagine]( BaoYanTong/photos/页面.png )
 
-![imagine](
+![imagine](BaoYanTong/photos/项目管理.PNG)
 
-<img src="/lib/screenshot3.png" width="700">   
+![imagine](BaoYanTong/photos/训练师登录.PNG)
+![imagine](BaoYanTong/photos/新用户注册.PNG)
 
-<img src="/lib/screenshot4.png" width="700">
 
 ## 说明
 
