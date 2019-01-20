@@ -17,12 +17,16 @@
 **如果觉得好，给项目点颗星吧～**
 
 ### 截图
-![imagine]( BaoYanTong/photos/页面.png )
+![imagine]( https://github.com/haibinwnang/BaoYanTong/blob/master/photos/%E6%96%B0%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C.PNG
+ )
 
-![imagine](BaoYanTong/photos/项目管理.PNG)
+![imagine](https://github.com/haibinwnang/BaoYanTong/blob/master/photos/%E8%AE%AD%E7%BB%83%E5%B8%88%E7%99%BB%E5%BD%95.PNG
+)
 
-![imagine](BaoYanTong/photos/训练师登录.PNG)
-![imagine](BaoYanTong/photos/新用户注册.PNG)
+![imagine](https://github.com/haibinwnang/BaoYanTong/blob/master/photos/%E9%A1%B5%E9%9D%A2.png
+)
+![imagine](https://github.com/haibinwnang/BaoYanTong/blob/master/photos/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.PNG
+)
 
 
 ## 说明
